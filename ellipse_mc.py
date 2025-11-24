@@ -7,7 +7,7 @@ A_boundingbox = a * b
 N = int(input("Enter the number of random points : "))
 N_in = 0
 
-for _ in range(N):
+for i in range(N):
     x = random.uniform(0,a)
     y = random.uniform(0,b)
     if (x ** 2 / a ** 2) + (y ** 2 / b ** 2) <= 1:
